@@ -1,3 +1,12 @@
 body{
-  background: #6E759E;
+    width: 100%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Metropolis-Medium', sans-serif;
+    color: #8F8F9F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #19191a;
 }
