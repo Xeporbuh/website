@@ -1,3 +1,4 @@
+
 body {
   background-image: url('https://cdn.discordapp.com/attachments/671694363235057675/967830744355454986/unknown.png');
   margin: 0;
@@ -19,8 +20,6 @@ h2 {
 #BruhWhat {
   position: fixed;
   font-size: 20px;
-  top: calc(50% - 95px);
-  left: calc(50% - 50px);
 }
 
 #Captcha {
@@ -34,22 +33,16 @@ h2 {
   width: 100px;
   position: fixed;
   top: calc(50% + 45px);
-  left: calc(50% - 51.5px);
+  left: calc(50% - 151.5px);
 }
 
 @media (max-width: 768px) {
-  #BruhWhat {
-    top: calc(50% - 95px);
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   #Captcha {
-    top: calc(50% + 50px);
+    top: 50%;
   }
 
   #submitButton {
-    top: calc(50% + 100px);
+    top: calc(50% + 45px);
     left: 50%;
     transform: translateX(-50%);
   }
