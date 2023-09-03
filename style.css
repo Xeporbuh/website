@@ -34,7 +34,7 @@ h2 {
   width: 100px;
   position: fixed;
   top: calc(50% + 45px); /* Position below the Captcha with 20px spacing */
-  left: calc(50% - 155px); /* Position to the left of the Captcha */
+  left: calc(50% - 152.5px); /* Position to the left of the Captcha */
 }
 
 /* Media query for mobile devices */
