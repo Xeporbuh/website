@@ -38,7 +38,6 @@ h2 {
   left: calc(50% - 151.5px); /* Position to the left of the Captcha */
 }
 
-/* Media query for mobile devices */
 @media (max-width: 768px) {
   #Captcha {
     top: 50%; /* Center vertically on mobile */
