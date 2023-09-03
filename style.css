@@ -26,3 +26,12 @@ h2{
 #submitButton{
   width: 100px;
 }
+@media (max-width: 768px) {
+  #Captcha {
+    top: 50%;
+  }
+
+  #submitButton {
+    top: 60%;
+  }
+}
