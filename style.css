@@ -45,7 +45,7 @@ h2 {
 
   #submitButton {
     top: calc(50% + 45px); /* Position below the Captcha on mobile */
-    left: 50% - 125px; /* Center horizontally on mobile */
+    left: 50% - 75px; /* Center horizontally on mobile */
     transform: translateX(-50%); /* Center the element horizontally on mobile */
   }
 }
