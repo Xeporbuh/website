@@ -9,6 +9,10 @@
       <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <form method="POST" id="Captcha" onsubmit="handleSubmit(event)">
+        <div class="h-captcha" data-sitekey="4a416d48-410f-4694-9ea6-aceb85c1e832" data-callback="captchaCompleted"></div>
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
    <h2 id="FatFuck">Ropex</h2>
 <h2 id="BruhWhat">Checkpoint</h2>
 </body>
