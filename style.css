@@ -48,10 +48,4 @@ h2 {
     left: 50% /* Center horizontally on mobile */
     transform: translateX(-50%); /* Center the element horizontally on mobile */
   }
-  #BruhWhat {
-    position: fixed;
-    top: calc(50% + 60px); /* Position below the Submit button on mobile */
-    left: calc(50% - 50px); /* Center horizontally on mobile */
-    transform: translateX(-50%); /* Center the element horizontally on mobile */
-  }
 }
