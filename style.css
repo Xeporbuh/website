@@ -33,8 +33,8 @@ h2 {
 #submitButton {
   width: 100px;
   position: fixed;
-  top: calc(50% + 20px); /* Position below the Captcha with 20px spacing */
-  left: calc(50% - 50px); /* Position to the left of the Captcha */
+  top: calc(50% + 100px); /* Position below the Captcha with 20px spacing */
+  left: calc(50% - 100px); /* Position to the left of the Captcha */
 }
 
 /* Media query for mobile devices */
