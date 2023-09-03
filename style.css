@@ -21,6 +21,7 @@ h2 {
   top: calc(50% - 45px); /* Position below the Captcha with 20px spacing */
   left: calc(50% - 151.5px); /* Position to the left of the Captcha */
   font-size: 20px;
+  transform: translate(-50%, -50%); /* Center the element */
 }
 
 #Captcha {
