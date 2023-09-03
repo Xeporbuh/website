@@ -15,13 +15,13 @@ h2{
 #BruhWhat{
   Position: Fixed;
   top: 350px;
-  left: 750px;
+  left: 775px;
   font-size: 20px;
 }
 #Captcha{
   Position: Fixed;
   top: 400px;
-  left: 750px;
+  left: 775px;
 }
 #submitButton{
   width: 100px;
