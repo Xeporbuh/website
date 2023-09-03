@@ -34,7 +34,7 @@ h2 {
   width: 100px;
   position: fixed;
   top: calc(50% + 45px); /* Position below the Captcha with 20px spacing */
-  left: calc(50% - 125px); /* Position to the left of the Captcha */
+  left: calc(50% - 151.5px); /* Position to the left of the Captcha */
 }
 
 /* Media query for mobile devices */
@@ -45,7 +45,7 @@ h2 {
 
   #submitButton {
     top: calc(50% + 45px); /* Position below the Captcha on mobile */
-    left: 50% - 151.5px; /* Center horizontally on mobile */
+    left: 50% - 125px; /* Center horizontally on mobile */
     transform: translateX(-50%); /* Center the element horizontally on mobile */
   }
 }
