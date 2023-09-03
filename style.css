@@ -8,7 +8,9 @@ h2{
 }
 #FatFuck{
   Position: Fixed;
-  top: 20px;
+  top: 10px;
+  left: 20px
+  font-weight: 600px;
 }
 #BruhWhat{
   Position: Fixed;
