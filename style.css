@@ -1,7 +1,7 @@
 body {
   background-image: url('https://cdn.discordapp.com/attachments/671694363235057675/967830744355454986/unknown.png');
   margin: 0;
-  text-align: center; /* Center-align text content */
+  text-align: center;
 }
 
 h2 {
@@ -18,34 +18,32 @@ h2 {
 
 #BruhWhat {
   position: fixed;
-  top: calc(50% - 45px); /* Position below the Captcha with 20px spacing */
-  left: calc(50% - 151.5px); /* Position to the left of the Captcha */
   font-size: 20px;
-  transform: translate(-50%, -50%); /* Center the element */
+  transform: translate(-50%, -50%);
 }
 
 #Captcha {
   position: fixed;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Center the element */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #submitButton {
   width: 100px;
   position: fixed;
-  top: calc(50% + 45px); /* Position below the Captcha with 20px spacing */
-  left: calc(50% - 151.5px); /* Position to the left of the Captcha */
+  top: calc(50% + 45px);
+  left: calc(50% - 151.5px);
 }
 
 @media (max-width: 768px) {
   #Captcha {
-    top: 50%; /* Center vertically on mobile */
+    top: 50%;
   }
 
   #submitButton {
-    top: calc(50% + 45px); /* Position below the Captcha on mobile */
-    left: 50% /* Center horizontally on mobile */
-    transform: translateX(-50%); /* Center the element horizontally on mobile */
+    top: calc(50% + 45px);
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
