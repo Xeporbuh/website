@@ -28,7 +28,7 @@ h2{
 }
 @media (max-width: 768px) {
   #Captcha {
-    top: 50%;
+    top: 400px;
   }
 
   #submitButton {
