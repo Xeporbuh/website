@@ -13,14 +13,14 @@ h2 {
   position: fixed;
   top: 10px;
   left: 40px;
-  font-size: 36px; 
+  font-size: 36px;
 }
 
 #BruhWhat {
   position: fixed;
   font-size: 20px;
-  top: calc(50% - 95px); /* Adjust this value as needed */
-  left: calc(50% - 50px); /* Adjust this value as needed */
+  top: calc(2% - 95px);
+  left: calc(50% - 50px);
 }
 
 #Captcha {
@@ -34,22 +34,22 @@ h2 {
   width: 100px;
   position: fixed;
   top: calc(50% + 45px);
-  left: calc(50% - 51.5px); /* Adjust this value as needed */
+  left: calc(50% - 51.5px);
 }
 
 @media (max-width: 768px) {
   #BruhWhat {
-    top: calc(50% - 95px); /* Adjust this value as needed */
+    top: calc(50% - 95px);
     left: 50%;
     transform: translateX(-50%);
   }
 
   #Captcha {
-    top: calc(50% + 50px); /* Adjust this value as needed */
+    top: calc(50% + 50px);
   }
 
   #submitButton {
-    top: calc(50% + 100px); /* Adjust this value as needed */
+    top: calc(50% + 100px);
     left: 50%;
     transform: translateX(-50%);
   }
