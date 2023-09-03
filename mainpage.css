@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'Sans-serif';
+    font-family: Sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Sans-serif';
+    font-family: Sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Sans-serif';
+    font-family: Sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -39,7 +39,7 @@
     -ms-user-select: none;
     user-select: none;
     border: 1px solid transparent;
-    font-family: Metropolis-Bold, sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -91,7 +91,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: 'Metropolis-Medium', sans-serif;
+    font-family: sans-serif;
     color: #8F8F9F;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -198,7 +198,7 @@ a:hover {
 .downloadsubcontainer {
     margin: 50px 0 30px;
     padding-left: 15px;
-    font-family: 'Metropolis-SemiBold', sans-serif;
+    font-family: sans-serif;
     justify-content: center!important;
     list-style: none;
     flex-wrap: wrap;
@@ -233,7 +233,7 @@ a:hover {
 
 .titlebigcock {
     margin-bottom: 1rem!important;
-    font-family: 'Metropolis-Bold', sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: 1.2;
     margin-top: 0;
