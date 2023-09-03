@@ -19,7 +19,7 @@ h2 {
 #BruhWhat {
   position: fixed;
   font-size: 20px;
-  top: calc(2% - 95px);
+  top: calc(50% - 95px);
   left: calc(50% - 50px);
 }
 
