@@ -44,8 +44,8 @@ h2 {
   }
 
   #submitButton {
-    top: calc(50% + 20px); /* Position below the Captcha on mobile */
-    left: 50%; /* Center horizontally on mobile */
+    top: calc(50% + 45px); /* Position below the Captcha on mobile */
+    left: 50% - 151.5px; /* Center horizontally on mobile */
     transform: translateX(-50%); /* Center the element horizontally on mobile */
   }
 }
