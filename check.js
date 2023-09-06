@@ -1,5 +1,8 @@
 var currentURL = window.location.href;
-if (currentURL.endsWith('/c1')) {
+
+if (currentURL === 'https://ropex.one/') {
+    window.location.href = 'https://ropex.one/c1';
+} else if (currentURL.endsWith('/c1')) {
     var h2 = document.createElement('h2');
     h2.textContent = 'Checkpoint 1';
     document.body.appendChild(h2);
