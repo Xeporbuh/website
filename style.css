@@ -40,7 +40,7 @@ body {
   @media (max-width: 768px) {
     #BruhWhat {
       top: calc(50% - 35px);
-      left: calc(50% - 97.5px);
+      left: calc(50% - 89px);
       transform: translateX(-50%);
     }
   
